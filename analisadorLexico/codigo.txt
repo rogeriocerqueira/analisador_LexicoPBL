@@ -1,0 +1,25 @@
+int main() {
+    // Declarando variáveis
+    int x = 10;
+    float y = 20.5;
+    boolean flag = true;
+
+    if (x >= y) {
+        x = x - 1;
+    } else {
+        y = y + 2.5;
+    }
+
+    // Comentário de bloco
+    /*
+    Este é um comentário de bloco
+    que pode se estender por várias linhas
+    */
+
+    // Operadores e delimitadores
+    x++;
+    y--;
+    x = x * y;
+    x = x / 2;
+}
+
